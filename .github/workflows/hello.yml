@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-      - run: 'echo "Hello Universe from ${{ github.repository }}"'
+      - run: 'echo "Hello Universe! Love from ${{ github.repository }}!"'
